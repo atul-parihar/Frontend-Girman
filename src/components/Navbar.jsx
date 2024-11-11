@@ -20,7 +20,6 @@ function Navbar() {
                     className="text-gray-800 font-semibold text-lg ml-4 flex items-center space-x-2"
                 >
                     <img src="/Logo.png" alt="Girman Logo" className="w-[220px] h-[62px]" />
-                    {/* <span className="font-bold ">Girman Technologies</span> */}
                 </Link>
             </div>
 

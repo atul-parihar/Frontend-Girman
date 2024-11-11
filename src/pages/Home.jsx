@@ -13,10 +13,14 @@ function Home() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-blue-300 flex flex-col items-center">
+    <div className="min-h-screen bg-gradient-to-b from-white to-blue-300 flex flex-col items-center py-6 px-4 sm:px-8">
       <div className="flex flex-col items-center mt-16 md:mt-24 text-center">
         <div className="flex items-center space-x-4 mb-6">
-          <img src="/girman_big_logo.png" alt="Girman Logo" className="w-[448px] h-[70px]" />
+          <img
+            src="/girman_big_logo.png"
+            alt="Girman Logo"
+            className="w-[320px] sm:w-[448px] h-auto" // Adjust logo width for mobile
+          />
         </div>
         <div className="relative w-full max-w-md">
           <Input
